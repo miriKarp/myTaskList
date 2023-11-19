@@ -1,0 +1,168 @@
+Z:\B\קארפ מרים\זילברברג\חדש\obj\Debug\net5.0\חדש.csproj.AssemblyReference.cache
+Z:\B\קארפ מרים\זילברברג\חדש\obj\Debug\net5.0\חדש.GeneratedMSBuildEditorConfig.editorconfig
+Z:\B\קארפ מרים\זילברברג\חדש\obj\Debug\net5.0\חדש.AssemblyInfoInputs.cache
+Z:\B\קארפ מרים\זילברברג\חדש\obj\Debug\net5.0\חדש.AssemblyInfo.cs
+Z:\B\קארפ מרים\זילברברג\חדש\obj\Debug\net5.0\חדש.csproj.CoreCompileInputs.cache
+Z:\B\קארפ מרים\זילברברג\חדש\obj\Debug\net5.0\חדש.MvcApplicationPartsAssemblyInfo.cs
+Z:\B\קארפ מרים\זילברברג\חדש\obj\Debug\net5.0\חדש.MvcApplicationPartsAssemblyInfo.cache
+Z:\B\קארפ מרים\זילברברג\חדש\bin\Debug\net5.0\appsettings.Development.json
+Z:\B\קארפ מרים\זילברברג\חדש\bin\Debug\net5.0\appsettings.json
+Z:\B\קארפ מרים\זילברברג\חדש\bin\Debug\net5.0\חדש.exe
+Z:\B\קארפ מרים\זילברברג\חדש\bin\Debug\net5.0\חדש.deps.json
+Z:\B\קארפ מרים\זילברברג\חדש\bin\Debug\net5.0\חדש.runtimeconfig.json
+Z:\B\קארפ מרים\זילברברג\חדש\bin\Debug\net5.0\חדש.runtimeconfig.dev.json
+Z:\B\קארפ מרים\זילברברג\חדש\bin\Debug\net5.0\חדש.dll
+Z:\B\קארפ מרים\זילברברג\חדש\bin\Debug\net5.0\ref\חדש.dll
+Z:\B\קארפ מרים\זילברברג\חדש\bin\Debug\net5.0\חדש.pdb
+Z:\B\קארפ מרים\זילברברג\חדש\bin\Debug\net5.0\Microsoft.OpenApi.dll
+Z:\B\קארפ מרים\זילברברג\חדש\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+Z:\B\קארפ מרים\זילברברג\חדש\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+Z:\B\קארפ מרים\זילברברג\חדש\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+Z:\B\קארפ מרים\זילברברג\חדש\obj\Debug\net5.0\staticwebassets\חדש.StaticWebAssets.Manifest.cache
+Z:\B\קארפ מרים\זילברברג\חדש\obj\Debug\net5.0\staticwebassets\חדש.StaticWebAssets.xml
+Z:\B\קארפ מרים\זילברברג\חדש\obj\Debug\net5.0\scopedcss\bundle\חדש.styles.css
+Z:\B\קארפ מרים\זילברברג\חדש\obj\Debug\net5.0\חדש.RazorTargetAssemblyInfo.cache
+Z:\B\קארפ מרים\זילברברג\חדש\obj\Debug\net5.0\חדש.csproj.CopyComplete
+Z:\B\קארפ מרים\זילברברג\חדש\obj\Debug\net5.0\חדש.dll
+Z:\B\קארפ מרים\זילברברג\חדש\obj\Debug\net5.0\ref\חדש.dll
+Z:\B\קארפ מרים\זילברברג\חדש\obj\Debug\net5.0\חדש.pdb
+Z:\B\קארפ מרים\זילברברג\חדש\obj\Debug\net5.0\חדש.genruntimeconfig.cache
+D:\הנדסת מחשבים-תכנות\יד\זילברברג\h.w\lesson 2\obj\Debug\net5.0\חדש.csproj.AssemblyReference.cache
+D:\הנדסת מחשבים-תכנות\יד\זילברברג\h.w\lesson 2\obj\Debug\net5.0\חדש.GeneratedMSBuildEditorConfig.editorconfig
+D:\הנדסת מחשבים-תכנות\יד\זילברברג\h.w\lesson 2\obj\Debug\net5.0\חדש.AssemblyInfoInputs.cache
+D:\הנדסת מחשבים-תכנות\יד\זילברברג\h.w\lesson 2\obj\Debug\net5.0\חדש.AssemblyInfo.cs
+D:\הנדסת מחשבים-תכנות\יד\זילברברג\h.w\lesson 2\obj\Debug\net5.0\חדש.csproj.CoreCompileInputs.cache
+D:\הנדסת מחשבים-תכנות\יד\זילברברג\h.w\lesson 2\obj\Debug\net5.0\חדש.MvcApplicationPartsAssemblyInfo.cs
+D:\הנדסת מחשבים-תכנות\יד\זילברברג\h.w\lesson 2\obj\Debug\net5.0\חדש.MvcApplicationPartsAssemblyInfo.cache
+D:\הנדסת מחשבים-תכנות\יד\זילברברג\h.w\lesson 2\obj\Debug\net5.0\חדש.dll
+D:\הנדסת מחשבים-תכנות\יד\זילברברג\h.w\lesson 2\obj\Debug\net5.0\חדש.pdb
+D:\הנדסת מחשבים-תכנות\יד\זילברברג\h.w\lesson 2\Task\obj\Debug\net5.0\חדש.csproj.AssemblyReference.cache
+D:\הנדסת מחשבים-תכנות\יד\זילברברג\h.w\lesson 2\Task\obj\Debug\net5.0\חדש.GeneratedMSBuildEditorConfig.editorconfig
+D:\הנדסת מחשבים-תכנות\יד\זילברברג\h.w\lesson 2\Task\obj\Debug\net5.0\חדש.AssemblyInfoInputs.cache
+D:\הנדסת מחשבים-תכנות\יד\זילברברג\h.w\lesson 2\Task\obj\Debug\net5.0\חדש.AssemblyInfo.cs
+D:\הנדסת מחשבים-תכנות\יד\זילברברג\h.w\lesson 2\Task\obj\Debug\net5.0\חדש.csproj.CoreCompileInputs.cache
+D:\הנדסת מחשבים-תכנות\יד\זילברברג\h.w\lesson 2\Task\obj\Debug\net5.0\חדש.MvcApplicationPartsAssemblyInfo.cs
+D:\הנדסת מחשבים-תכנות\יד\זילברברג\h.w\lesson 2\Task\obj\Debug\net5.0\חדש.MvcApplicationPartsAssemblyInfo.cache
+D:\הנדסת מחשבים-תכנות\יד\זילברברג\h.w\lesson 2\Task\obj\Debug\net5.0\חדש.dll
+D:\הנדסת מחשבים-תכנות\יד\זילברברג\h.w\lesson 2\Task\obj\Debug\net5.0\חדש.pdb
+D:\הנדסת מחשבים-תכנות\יד\זילברברג\h.w\lesson 2\Task\bin\Debug\net5.0\appsettings.Development.json
+D:\הנדסת מחשבים-תכנות\יד\זילברברג\h.w\lesson 2\Task\bin\Debug\net5.0\appsettings.json
+D:\הנדסת מחשבים-תכנות\יד\זילברברג\h.w\lesson 2\Task\bin\Debug\net5.0\חדש.StaticWebAssets.xml
+D:\הנדסת מחשבים-תכנות\יד\זילברברג\h.w\lesson 2\Task\bin\Debug\net5.0\חדש.exe
+D:\הנדסת מחשבים-תכנות\יד\זילברברג\h.w\lesson 2\Task\bin\Debug\net5.0\חדש.deps.json
+D:\הנדסת מחשבים-תכנות\יד\זילברברג\h.w\lesson 2\Task\bin\Debug\net5.0\חדש.runtimeconfig.json
+D:\הנדסת מחשבים-תכנות\יד\זילברברג\h.w\lesson 2\Task\bin\Debug\net5.0\חדש.runtimeconfig.dev.json
+D:\הנדסת מחשבים-תכנות\יד\זילברברג\h.w\lesson 2\Task\bin\Debug\net5.0\חדש.dll
+D:\הנדסת מחשבים-תכנות\יד\זילברברג\h.w\lesson 2\Task\bin\Debug\net5.0\חדש.pdb
+D:\הנדסת מחשבים-תכנות\יד\זילברברג\h.w\lesson 2\Task\bin\Debug\net5.0\Microsoft.OpenApi.dll
+D:\הנדסת מחשבים-תכנות\יד\זילברברג\h.w\lesson 2\Task\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\הנדסת מחשבים-תכנות\יד\זילברברג\h.w\lesson 2\Task\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\הנדסת מחשבים-תכנות\יד\זילברברג\h.w\lesson 2\Task\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\הנדסת מחשבים-תכנות\יד\זילברברג\h.w\lesson 2\Task\obj\Debug\net5.0\scopedcss\bundle\חדש.styles.css
+D:\הנדסת מחשבים-תכנות\יד\זילברברג\h.w\lesson 2\Task\obj\Debug\net5.0\staticwebassets\חדש.StaticWebAssets.Manifest.cache
+D:\הנדסת מחשבים-תכנות\יד\זילברברג\h.w\lesson 2\Task\obj\Debug\net5.0\staticwebassets\חדש.StaticWebAssets.Pack.cache
+D:\הנדסת מחשבים-תכנות\יד\זילברברג\h.w\lesson 2\Task\obj\Debug\net5.0\staticwebassets\msbuild.חדש.Microsoft.AspNetCore.StaticWebAssets.props
+D:\הנדסת מחשבים-תכנות\יד\זילברברג\h.w\lesson 2\Task\obj\Debug\net5.0\staticwebassets\msbuild.build.חדש.props
+D:\הנדסת מחשבים-תכנות\יד\זילברברג\h.w\lesson 2\Task\obj\Debug\net5.0\staticwebassets\msbuild.buildMultiTargeting.חדש.props
+D:\הנדסת מחשבים-תכנות\יד\זילברברג\h.w\lesson 2\Task\obj\Debug\net5.0\staticwebassets\msbuild.buildTransitive.חדש.props
+D:\הנדסת מחשבים-תכנות\יד\זילברברג\h.w\lesson 2\Task\obj\Debug\net5.0\חדש.RazorTargetAssemblyInfo.cache
+D:\הנדסת מחשבים-תכנות\יד\זילברברג\h.w\lesson 2\Task\obj\Debug\net5.0\חדש.csproj.CopyComplete
+D:\הנדסת מחשבים-תכנות\יד\זילברברג\h.w\lesson 2\Task\obj\Debug\net5.0\refint\חדש.dll
+D:\הנדסת מחשבים-תכנות\יד\זילברברג\h.w\lesson 2\Task\obj\Debug\net5.0\חדש.genruntimeconfig.cache
+D:\הנדסת מחשבים-תכנות\יד\זילברברג\h.w\lesson 2\Task\obj\Debug\net5.0\ref\חדש.dll
+Z:\B\קארפ מרים\זילברברג\h.w\lesson 2\Task\bin\Debug\net5.0\appsettings.Development.json
+Z:\B\קארפ מרים\זילברברג\h.w\lesson 2\Task\bin\Debug\net5.0\appsettings.json
+Z:\B\קארפ מרים\זילברברג\h.w\lesson 2\Task\bin\Debug\net5.0\חדש.exe
+Z:\B\קארפ מרים\זילברברג\h.w\lesson 2\Task\bin\Debug\net5.0\חדש.deps.json
+Z:\B\קארפ מרים\זילברברג\h.w\lesson 2\Task\bin\Debug\net5.0\חדש.runtimeconfig.json
+Z:\B\קארפ מרים\זילברברג\h.w\lesson 2\Task\bin\Debug\net5.0\חדש.runtimeconfig.dev.json
+Z:\B\קארפ מרים\זילברברג\h.w\lesson 2\Task\bin\Debug\net5.0\חדש.dll
+Z:\B\קארפ מרים\זילברברג\h.w\lesson 2\Task\bin\Debug\net5.0\ref\חדש.dll
+Z:\B\קארפ מרים\זילברברג\h.w\lesson 2\Task\bin\Debug\net5.0\חדש.pdb
+Z:\B\קארפ מרים\זילברברג\h.w\lesson 2\Task\bin\Debug\net5.0\Microsoft.OpenApi.dll
+Z:\B\קארפ מרים\זילברברג\h.w\lesson 2\Task\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+Z:\B\קארפ מרים\זילברברג\h.w\lesson 2\Task\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+Z:\B\קארפ מרים\זילברברג\h.w\lesson 2\Task\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+Z:\B\קארפ מרים\זילברברג\h.w\lesson 2\Task\obj\Debug\net5.0\חדש.csproj.AssemblyReference.cache
+Z:\B\קארפ מרים\זילברברג\h.w\lesson 2\Task\obj\Debug\net5.0\חדש.GeneratedMSBuildEditorConfig.editorconfig
+Z:\B\קארפ מרים\זילברברג\h.w\lesson 2\Task\obj\Debug\net5.0\חדש.AssemblyInfoInputs.cache
+Z:\B\קארפ מרים\זילברברג\h.w\lesson 2\Task\obj\Debug\net5.0\חדש.AssemblyInfo.cs
+Z:\B\קארפ מרים\זילברברג\h.w\lesson 2\Task\obj\Debug\net5.0\חדש.csproj.CoreCompileInputs.cache
+Z:\B\קארפ מרים\זילברברג\h.w\lesson 2\Task\obj\Debug\net5.0\חדש.MvcApplicationPartsAssemblyInfo.cs
+Z:\B\קארפ מרים\זילברברג\h.w\lesson 2\Task\obj\Debug\net5.0\חדש.MvcApplicationPartsAssemblyInfo.cache
+Z:\B\קארפ מרים\זילברברג\h.w\lesson 2\Task\obj\Debug\net5.0\staticwebassets\חדש.StaticWebAssets.Manifest.cache
+Z:\B\קארפ מרים\זילברברג\h.w\lesson 2\Task\obj\Debug\net5.0\staticwebassets\חדש.StaticWebAssets.xml
+Z:\B\קארפ מרים\זילברברג\h.w\lesson 2\Task\obj\Debug\net5.0\scopedcss\bundle\חדש.styles.css
+Z:\B\קארפ מרים\זילברברג\h.w\lesson 2\Task\obj\Debug\net5.0\חדש.RazorTargetAssemblyInfo.cache
+Z:\B\קארפ מרים\זילברברג\h.w\lesson 2\Task\obj\Debug\net5.0\חדש.csproj.CopyComplete
+Z:\B\קארפ מרים\זילברברג\h.w\lesson 2\Task\obj\Debug\net5.0\חדש.dll
+Z:\B\קארפ מרים\זילברברג\h.w\lesson 2\Task\obj\Debug\net5.0\ref\חדש.dll
+Z:\B\קארפ מרים\זילברברג\h.w\lesson 2\Task\obj\Debug\net5.0\חדש.pdb
+Z:\B\קארפ מרים\זילברברג\h.w\lesson 2\Task\obj\Debug\net5.0\חדש.genruntimeconfig.cache
+Z:\B\קארפ מרים\זילברברג\h.w\lesson 3\Task\obj\Debug\net5.0\חדש.csproj.AssemblyReference.cache
+Z:\B\קארפ מרים\זילברברג\h.w\lesson 3\Task\obj\Debug\net5.0\חדש.GeneratedMSBuildEditorConfig.editorconfig
+Z:\B\קארפ מרים\זילברברג\h.w\lesson 3\Task\obj\Debug\net5.0\חדש.AssemblyInfoInputs.cache
+Z:\B\קארפ מרים\זילברברג\h.w\lesson 3\Task\obj\Debug\net5.0\חדש.AssemblyInfo.cs
+Z:\B\קארפ מרים\זילברברג\h.w\lesson 3\Task\obj\Debug\net5.0\חדש.csproj.CoreCompileInputs.cache
+Z:\B\קארפ מרים\זילברברג\h.w\lesson 3\Task\obj\Debug\net5.0\חדש.MvcApplicationPartsAssemblyInfo.cs
+Z:\B\קארפ מרים\זילברברג\h.w\lesson 3\Task\obj\Debug\net5.0\חדש.MvcApplicationPartsAssemblyInfo.cache
+Z:\B\קארפ מרים\זילברברג\h.w\lesson 3\Task\obj\Debug\net5.0\חדש.dll
+Z:\B\קארפ מרים\זילברברג\h.w\lesson 3\Task\obj\Debug\net5.0\ref\חדש.dll
+Z:\B\קארפ מרים\זילברברג\h.w\lesson 3\Task\obj\Debug\net5.0\חדש.pdb
+Z:\B\קארפ מרים\זילברברג\h.w\lesson 3\Task\bin\Debug\net5.0\appsettings.Development.json
+Z:\B\קארפ מרים\זילברברג\h.w\lesson 3\Task\bin\Debug\net5.0\appsettings.json
+Z:\B\קארפ מרים\זילברברג\h.w\lesson 3\Task\bin\Debug\net5.0\חדש.exe
+Z:\B\קארפ מרים\זילברברג\h.w\lesson 3\Task\bin\Debug\net5.0\חדש.deps.json
+Z:\B\קארפ מרים\זילברברג\h.w\lesson 3\Task\bin\Debug\net5.0\חדש.runtimeconfig.json
+Z:\B\קארפ מרים\זילברברג\h.w\lesson 3\Task\bin\Debug\net5.0\חדש.runtimeconfig.dev.json
+Z:\B\קארפ מרים\זילברברג\h.w\lesson 3\Task\bin\Debug\net5.0\חדש.dll
+Z:\B\קארפ מרים\זילברברג\h.w\lesson 3\Task\bin\Debug\net5.0\ref\חדש.dll
+Z:\B\קארפ מרים\זילברברג\h.w\lesson 3\Task\bin\Debug\net5.0\חדש.pdb
+Z:\B\קארפ מרים\זילברברג\h.w\lesson 3\Task\bin\Debug\net5.0\Microsoft.OpenApi.dll
+Z:\B\קארפ מרים\זילברברג\h.w\lesson 3\Task\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+Z:\B\קארפ מרים\זילברברג\h.w\lesson 3\Task\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+Z:\B\קארפ מרים\זילברברג\h.w\lesson 3\Task\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+Z:\B\קארפ מרים\זילברברג\h.w\lesson 3\Task\obj\Debug\net5.0\staticwebassets\חדש.StaticWebAssets.Manifest.cache
+Z:\B\קארפ מרים\זילברברג\h.w\lesson 3\Task\obj\Debug\net5.0\staticwebassets\חדש.StaticWebAssets.xml
+Z:\B\קארפ מרים\זילברברג\h.w\lesson 3\Task\obj\Debug\net5.0\scopedcss\bundle\חדש.styles.css
+Z:\B\קארפ מרים\זילברברג\h.w\lesson 3\Task\obj\Debug\net5.0\חדש.RazorTargetAssemblyInfo.cache
+Z:\B\קארפ מרים\זילברברג\h.w\lesson 3\Task\obj\Debug\net5.0\חדש.csproj.CopyComplete
+Z:\B\קארפ מרים\זילברברג\h.w\lesson 3\Task\obj\Debug\net5.0\חדש.genruntimeconfig.cache
+Z:\B\קארפ מרים\זילברברג\h.w\lesson 3\Task\bin\Debug\net5.0\data\taskList.json
+Z:\B\קארפ מרים\זילברברג\h.w\lesson_4\Task\obj\Debug\net5.0\חדש.csproj.AssemblyReference.cache
+Z:\B\קארפ מרים\זילברברג\h.w\lesson_4\Task\obj\Debug\net5.0\חדש.GeneratedMSBuildEditorConfig.editorconfig
+Z:\B\קארפ מרים\זילברברג\h.w\lesson_4\Task\obj\Debug\net5.0\חדש.AssemblyInfoInputs.cache
+Z:\B\קארפ מרים\זילברברג\h.w\lesson_4\Task\obj\Debug\net5.0\חדש.AssemblyInfo.cs
+Z:\B\קארפ מרים\זילברברג\h.w\lesson_4\Task\obj\Debug\net5.0\חדש.csproj.CoreCompileInputs.cache
+Z:\B\קארפ מרים\זילברברג\h.w\lesson_4\Task\obj\Debug\net5.0\חדש.MvcApplicationPartsAssemblyInfo.cs
+Z:\B\קארפ מרים\זילברברג\h.w\lesson_4\Task\obj\Debug\net5.0\חדש.MvcApplicationPartsAssemblyInfo.cache
+Z:\B\קארפ מרים\זילברברג\h.w\lesson_4\Task\obj\Debug\net5.0\חדש.dll
+Z:\B\קארפ מרים\זילברברג\h.w\lesson_4\Task\obj\Debug\net5.0\חדש.pdb
+Z:\B\קארפ מרים\זילברברג\h.w\lesson_4\Task\bin\Debug\net5.0\appsettings.Development.json
+Z:\B\קארפ מרים\זילברברג\h.w\lesson_4\Task\bin\Debug\net5.0\appsettings.json
+Z:\B\קארפ מרים\זילברברג\h.w\lesson_4\Task\bin\Debug\net5.0\data\taskList.json
+Z:\B\קארפ מרים\זילברברג\h.w\lesson_4\Task\bin\Debug\net5.0\חדש.exe
+Z:\B\קארפ מרים\זילברברג\h.w\lesson_4\Task\bin\Debug\net5.0\חדש.deps.json
+Z:\B\קארפ מרים\זילברברג\h.w\lesson_4\Task\bin\Debug\net5.0\חדש.runtimeconfig.json
+Z:\B\קארפ מרים\זילברברג\h.w\lesson_4\Task\bin\Debug\net5.0\חדש.runtimeconfig.dev.json
+Z:\B\קארפ מרים\זילברברג\h.w\lesson_4\Task\bin\Debug\net5.0\חדש.dll
+Z:\B\קארפ מרים\זילברברג\h.w\lesson_4\Task\bin\Debug\net5.0\חדש.pdb
+Z:\B\קארפ מרים\זילברברג\h.w\lesson_4\Task\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+Z:\B\קארפ מרים\זילברברג\h.w\lesson_4\Task\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+Z:\B\קארפ מרים\זילברברג\h.w\lesson_4\Task\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+Z:\B\קארפ מרים\זילברברג\h.w\lesson_4\Task\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+Z:\B\קארפ מרים\זילברברג\h.w\lesson_4\Task\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+Z:\B\קארפ מרים\זילברברג\h.w\lesson_4\Task\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+Z:\B\קארפ מרים\זילברברג\h.w\lesson_4\Task\bin\Debug\net5.0\Microsoft.OpenApi.dll
+Z:\B\קארפ מרים\זילברברג\h.w\lesson_4\Task\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+Z:\B\קארפ מרים\זילברברג\h.w\lesson_4\Task\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+Z:\B\קארפ מרים\זילברברג\h.w\lesson_4\Task\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+Z:\B\קארפ מרים\זילברברג\h.w\lesson_4\Task\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+Z:\B\קארפ מרים\זילברברג\h.w\lesson_4\Task\obj\Debug\net5.0\scopedcss\bundle\חדש.styles.css
+Z:\B\קארפ מרים\זילברברג\h.w\lesson_4\Task\obj\Debug\net5.0\staticwebassets\חדש.StaticWebAssets.Manifest.cache
+Z:\B\קארפ מרים\זילברברג\h.w\lesson_4\Task\obj\Debug\net5.0\חדש.RazorTargetAssemblyInfo.cache
+Z:\B\קארפ מרים\זילברברג\h.w\lesson_4\Task\obj\Debug\net5.0\חדש.csproj.CopyComplete
+Z:\B\קארפ מרים\זילברברג\h.w\lesson_4\Task\obj\Debug\net5.0\חדש.genruntimeconfig.cache
+Z:\B\קארפ מרים\זילברברג\h.w\lesson_4\Task\obj\Debug\net5.0\ref\חדש.dll
+Z:\B\קארפ מרים\זילברברג\h.w\lesson_4\Task\bin\Debug\net5.0\ref\חדש.dll
+Z:\B\קארפ מרים\זילברברג\h.w\lesson_4\Task\obj\Debug\net5.0\staticwebassets\חדש.StaticWebAssets.xml
