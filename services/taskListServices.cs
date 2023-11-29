@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using System.Text.Json;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Http;
 
 
 namespace Task.services
@@ -19,10 +20,13 @@ namespace Task.services
 
         List<task> tasks { get; }
 
+        private readonly long userId;
+
         private IWebHostEnvironment webHost;
         private string filePath;
-        public taskListServices(IWebHostEnvironment webHost)
+        public taskListServices(IWebHostEnvironment webHost,IHttpContextAccessor httpContextAccessor)
         {
+             this.userId = long.Parse(httpContextAccessor.HttpContext?.User?.FindFirst("id")?.Value);
             this.webHost = webHost;
             this.filePath = Path.Combine(webHost.ContentRootPath, "data", "taskList.json");
             using (var jsonFile = File.OpenText(filePath))

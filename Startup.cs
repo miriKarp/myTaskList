@@ -13,6 +13,7 @@ using Microsoft.Extensions.Logging;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.OpenApi.Models;
 using Task.services;
+using System.ComponentModel;
 
 namespace חדש
 {
@@ -28,6 +29,8 @@ namespace חדש
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            // add
+            services.AddHttpContextAccessor();
 
             services
                 .AddAuthentication(options =>
@@ -45,7 +48,6 @@ namespace חדש
                     cfg.AddPolicy("TaskManager", policy => policy.RequireClaim("UserType", "TaskManager"));
                     cfg.AddPolicy("taskUser", policy => policy.RequireClaim("UserType", "taskUser"));
                 });
-
 
             services.AddControllers();
             services.AddSwaggerGen(c =>

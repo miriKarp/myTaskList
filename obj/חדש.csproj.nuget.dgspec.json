@@ -1,27 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "Z:\\B\\קארפ מרים\\זילברברג\\h.w\\lesson_4\\Task\\חדש.csproj": {}
+    "C:\\Users\\user\\Desktop\\זילברברג\\h.w\\TaskProject\\myTaskList\\חדש.csproj": {}
   },
   "projects": {
-    "Z:\\B\\קארפ מרים\\זילברברג\\h.w\\lesson_4\\Task\\חדש.csproj": {
+    "C:\\Users\\user\\Desktop\\זילברברג\\h.w\\TaskProject\\myTaskList\\חדש.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "Z:\\B\\קארפ מרים\\זילברברג\\h.w\\lesson_4\\Task\\חדש.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\זילברברג\\h.w\\TaskProject\\myTaskList\\חדש.csproj",
         "projectName": "חדש",
-        "projectPath": "Z:\\B\\קארפ מרים\\זילברברג\\h.w\\lesson_4\\Task\\חדש.csproj",
-        "packagesPath": "C:\\Users\\huser\\.nuget\\packages\\",
-        "outputPath": "Z:\\B\\קארפ מרים\\זילברברג\\h.w\\lesson_4\\Task\\obj\\",
+        "projectPath": "C:\\Users\\user\\Desktop\\זילברברג\\h.w\\TaskProject\\myTaskList\\חדש.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\זילברברג\\h.w\\TaskProject\\myTaskList\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\huser\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -65,10 +59,29 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[5.0.17, 5.0.17]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -77,7 +90,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
