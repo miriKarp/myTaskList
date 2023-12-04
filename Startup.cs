@@ -12,8 +12,9 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.OpenApi.Models;
-using Task.services;
+using mTask.services;
 using System.ComponentModel;
+using mTask.MyMiddleware;
 
 namespace חדש
 {
@@ -68,7 +69,9 @@ namespace חדש
                     new string[] {}
                 }});
             });
-            services.AddSingleton<Task.interfaces.IListTaskService, Task.services.taskListServices>();
+            services.AddSingleton<mTask.interfaces.IListTaskService, mTask.services.taskListServices>();
+            services.AddSingleton<mTask.interfaces.IUserService, mTask.services.userService>();
+
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
@@ -84,7 +87,9 @@ namespace חדש
             app.UseStaticFiles();
 
 
-            // app.UseHttpsRedirection();
+            app.UseHttpsRedirection();
+
+            app.UseMyLogMiddleware();
 
             app.UseRouting();
 

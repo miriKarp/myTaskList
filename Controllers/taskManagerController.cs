@@ -1,40 +1,35 @@
 using System.Collections.Generic;
 using System.Linq;
 using Microsoft.AspNetCore.Mvc;
-using Task.models;
-using Task.interfaces;
+using mTask.models;
+using mTask.interfaces;
 using Microsoft.AspNetCore.Authorization;
 using System;
 using System.Security.Claims;
-using Task.services;
+using mTask.services;
 
 
-namespace Task.Controllers
+namespace mTask.Controllers
 {
     [ApiController]
-    [Route("[action]")]
     [Route("[controller]")]
+    // [Route("[action]")]
     public class taskManagerController : ControllerBase
     {
-        private List<taskUser> users;
-        public taskManagerController()
+        IUserService userService;
+        public taskManagerController(IUserService userService)
         {
-            users = new List<taskUser>
-            {
-                new taskUser { UserId = 1, Username = "Avraham", Password = "A1234!", TaskManager = true},
-                new taskUser { UserId = 2, Username = "Itshak", Password = "Y1234@"},
-                new taskUser { UserId = 3, Username = "Yaakov", Password = "Y1234#"}
-            };
+            this.userService = userService;
+
         }
-        [HttpPost]       
-        public ActionResult<String> Login([FromBody] taskUser User)
+        [HttpPost]
+        public ActionResult<String> Login([FromBody] User User)
         {
+            System.Console.WriteLine(User);
             var dt = DateTime.Now;
 
-            var user = users.FirstOrDefault(u =>
-                u.Username == User.Username
-                && u.Password == User.Password
-            );
+            var user = this.userService.GetAll().FirstOrDefault(c =>
+            c.UserName == User.UserName && c.Password == User.Password);
 
             if (user == null)
             {
@@ -43,13 +38,15 @@ namespace Task.Controllers
 
             var claims = new List<Claim>
             {
-                new Claim("UserType", user.TaskManager ? "TaskManager" : "taskUserId"),
-                new Claim("userId", user.UserId.ToString()),
+                new Claim("UserType", user.TaskManager ? "TaskManager" : "taskUser"),
+                new Claim("Id", user.Id.ToString()),
 
             };
+            if (user.TaskManager)
+                claims.Add(new Claim("UserType", "taskUser"));
 
             var token = taskListTokenServices.GetToken(claims);
-
+            System.Console.WriteLine(token);
             return new OkObjectResult(taskListTokenServices.WriteToken(token));
         }
     }

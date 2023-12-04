@@ -1,5 +1,5 @@
 
-namespace Task.models{
+namespace mTask.models{
 
     public class task{
         public int id { get; set; }

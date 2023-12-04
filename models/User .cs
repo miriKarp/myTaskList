@@ -1,9 +1,10 @@
-namespace Task.models
+namespace mTask.models
 {
-    public class taskUser
+    public class User
     {
-        public long UserId {get;set;}
-        public string Username { get; set; }
+        public long Id {get;set;}
+        
+        public string UserName { get; set; }
 
         public string Password { get; set; }
 
