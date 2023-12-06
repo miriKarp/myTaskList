@@ -20,13 +20,11 @@ namespace mTask.services
 
         List<task> tasks { get; }
 
-        private readonly long userId;
 
         private IWebHostEnvironment webHost;
         private string filePath;
-        public taskListServices(IWebHostEnvironment webHost,IHttpContextAccessor httpContextAccessor)
+        public taskListServices(IWebHostEnvironment webHost)
         {
-            this.userId = long.Parse(httpContextAccessor.HttpContext?.User?.FindFirst("Id")?.Value);
             this.webHost = webHost;
             this.filePath = Path.Combine(webHost.ContentRootPath, "data", "taskList.json");
             using (var jsonFile = File.OpenText(filePath))
@@ -45,34 +43,37 @@ namespace mTask.services
             File.WriteAllText(filePath, JsonSerializer.Serialize(tasks));
         }
 
-        public List<task> GetAll()
+        public List<task> GetAll(long userId)
         {
+            Console.WriteLine(userId);
             return tasks.Where(p => p.taskUserId == userId).ToList();
+            
         }
 
-        public task Get(int id)
+        public task Get(long userId,int id)
         {
             return tasks.FirstOrDefault(t => t.taskUserId == userId && t.id == id);
         }
 
-        public void Add(task task)
+        public void Add(long userId,task task)
         {
-            task.id = tasks.Count() + 1;
+            // task.id = tasks.Count() + 1;
+            task.id = tasks[tasks.Count()-1].id + 1;
             task.taskUserId = userId;
             tasks.Add(task);
             saveToFile();
 
         }
-        public void Delete(int id)
+        public void Delete(long userId,int id)
         {
-            var task = Get( id);
+            var task = Get( userId, id);
             if (task is null)
                 return;
             tasks.Remove(task);
             saveToFile();
 
         }
-        public void Update( task task)
+        public void Update( long userId,task task)
         {
             var index = tasks.FindIndex(t => t.taskUserId == userId && t.id == task.id);
             if (index == -1)
@@ -82,9 +83,9 @@ namespace mTask.services
             saveToFile();
         }
 
-        public int Count()
+        public int Count(long userId)
         {
-            return GetAll().Count();
+            return GetAll( userId).Count();
         }
     }
 }

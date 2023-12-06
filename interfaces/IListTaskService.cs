@@ -5,11 +5,11 @@ namespace mTask.interfaces
 {
     public interface IListTaskService
     {
-        List<task> GetAll();
-        task Get(int id);
-        void Add(task task);
-        void Delete( int id);
-        void Update( task task);
-        int Count();
+        List<task> GetAll(long userId);
+        task Get(long userId,int id);
+        void Add(long userId,task task);
+        void Delete(long userId, int id);
+        void Update(long userId, task task);
+        int Count(long userId);
     }
 }

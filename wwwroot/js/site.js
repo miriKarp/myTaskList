@@ -117,7 +117,12 @@ function updateItem(item1) {
             .catch(error => console.error('Unable to update item.', error));
         closeInput();
     }
+    //add
+    document.getElementById("closeX").onclick = () => {
+        closeInput();
+    }
 }
+
 
 
 function closeInput() {
@@ -155,17 +160,21 @@ function _displayItems(data) {
         let tr = tBody.insertRow();
 
         let td1 = tr.insertCell(0);
-        td1.appendChild(statusCheckbox);
+        let textId= document.createTextNode(item.id);
+        td1.appendChild(textId);
 
         let td2 = tr.insertCell(1);
-        let textNode = document.createTextNode(item.name);
-        td2.appendChild(textNode);
+        td2.appendChild(statusCheckbox);
 
         let td3 = tr.insertCell(2);
-        td3.appendChild(editButton);
+        let textNode = document.createTextNode(item.name);
+        td3.appendChild(textNode);
 
         let td4 = tr.insertCell(3);
-        td4.appendChild(deleteButton);
+        td4.appendChild(editButton);
+
+        let td5 = tr.insertCell(4);
+        td5.appendChild(deleteButton);
     });
 
     tasks = data;
@@ -214,7 +223,8 @@ function _displayUsers(data) {
         td1.appendChild(textNode1);
 
         let td2 = tr.insertCell(1);
-        let textNode2 = document.createTextNode(user.name);
+        //
+        let textNode2 = document.createTextNode(user.userName);
         td2.appendChild(textNode2);
 
         let td3 = tr.insertCell(2);
@@ -251,15 +261,15 @@ function getMyUser() {
 
 function showUser(data) {
     const id = document.createElement('th');
-    const name = document.createElement('th');
-    const isAdmin = document.createElement('th');
+    const UserName = document.createElement('th');
+    const TaskManager = document.createElement('th');
     const password = document.createElement('th');
     id.innerHTML = data.id;
-    name.innerHTML = data.name;
-    isAdmin.innerHTML = data.isAdmin;
+    UserName.innerHTML = data.userName;
+    TaskManager.innerHTML = data.taskManager;
     password.innerHTML = data.password;
     const tbl = document.getElementById("tbl");
-    tbl.append(id, name, isAdmin, password);
+    tbl.append(id, UserName, TaskManager, password);
 }
 
 function addUser() {

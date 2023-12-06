@@ -323,3 +323,41 @@ C:\Users\user\Desktop\זילברברג\h.w\try\myTaskList\obj\Debug\net5.0\refin
 C:\Users\user\Desktop\זילברברג\h.w\try\myTaskList\obj\Debug\net5.0\חדש.pdb
 C:\Users\user\Desktop\זילברברג\h.w\try\myTaskList\obj\Debug\net5.0\חדש.genruntimeconfig.cache
 C:\Users\user\Desktop\זילברברג\h.w\try\myTaskList\obj\Debug\net5.0\ref\חדש.dll
+Z:\B\קארפ מרים\זילברברג\finalProject\myTaskList\bin\Debug\net5.0\appsettings.Development.json
+Z:\B\קארפ מרים\זילברברג\finalProject\myTaskList\bin\Debug\net5.0\appsettings.json
+Z:\B\קארפ מרים\זילברברג\finalProject\myTaskList\bin\Debug\net5.0\data\taskList.json
+Z:\B\קארפ מרים\זילברברג\finalProject\myTaskList\bin\Debug\net5.0\data\users.json
+Z:\B\קארפ מרים\זילברברג\finalProject\myTaskList\bin\Debug\net5.0\חדש.exe
+Z:\B\קארפ מרים\זילברברג\finalProject\myTaskList\bin\Debug\net5.0\חדש.deps.json
+Z:\B\קארפ מרים\זילברברג\finalProject\myTaskList\bin\Debug\net5.0\חדש.runtimeconfig.json
+Z:\B\קארפ מרים\זילברברג\finalProject\myTaskList\bin\Debug\net5.0\חדש.runtimeconfig.dev.json
+Z:\B\קארפ מרים\זילברברג\finalProject\myTaskList\bin\Debug\net5.0\חדש.dll
+Z:\B\קארפ מרים\זילברברג\finalProject\myTaskList\bin\Debug\net5.0\ref\חדש.dll
+Z:\B\קארפ מרים\זילברברג\finalProject\myTaskList\bin\Debug\net5.0\חדש.pdb
+Z:\B\קארפ מרים\זילברברג\finalProject\myTaskList\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+Z:\B\קארפ מרים\זילברברג\finalProject\myTaskList\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+Z:\B\קארפ מרים\זילברברג\finalProject\myTaskList\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+Z:\B\קארפ מרים\זילברברג\finalProject\myTaskList\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+Z:\B\קארפ מרים\זילברברג\finalProject\myTaskList\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+Z:\B\קארפ מרים\זילברברג\finalProject\myTaskList\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+Z:\B\קארפ מרים\זילברברג\finalProject\myTaskList\bin\Debug\net5.0\Microsoft.OpenApi.dll
+Z:\B\קארפ מרים\זילברברג\finalProject\myTaskList\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+Z:\B\קארפ מרים\זילברברג\finalProject\myTaskList\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+Z:\B\קארפ מרים\זילברברג\finalProject\myTaskList\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+Z:\B\קארפ מרים\זילברברג\finalProject\myTaskList\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+Z:\B\קארפ מרים\זילברברג\finalProject\myTaskList\obj\Debug\net5.0\חדש.csproj.AssemblyReference.cache
+Z:\B\קארפ מרים\זילברברג\finalProject\myTaskList\obj\Debug\net5.0\חדש.GeneratedMSBuildEditorConfig.editorconfig
+Z:\B\קארפ מרים\זילברברג\finalProject\myTaskList\obj\Debug\net5.0\חדש.AssemblyInfoInputs.cache
+Z:\B\קארפ מרים\זילברברג\finalProject\myTaskList\obj\Debug\net5.0\חדש.AssemblyInfo.cs
+Z:\B\קארפ מרים\זילברברג\finalProject\myTaskList\obj\Debug\net5.0\חדש.csproj.CoreCompileInputs.cache
+Z:\B\קארפ מרים\זילברברג\finalProject\myTaskList\obj\Debug\net5.0\חדש.MvcApplicationPartsAssemblyInfo.cs
+Z:\B\קארפ מרים\זילברברג\finalProject\myTaskList\obj\Debug\net5.0\חדש.MvcApplicationPartsAssemblyInfo.cache
+Z:\B\קארפ מרים\זילברברג\finalProject\myTaskList\obj\Debug\net5.0\staticwebassets\חדש.StaticWebAssets.Manifest.cache
+Z:\B\קארפ מרים\זילברברג\finalProject\myTaskList\obj\Debug\net5.0\staticwebassets\חדש.StaticWebAssets.xml
+Z:\B\קארפ מרים\זילברברג\finalProject\myTaskList\obj\Debug\net5.0\scopedcss\bundle\חדש.styles.css
+Z:\B\קארפ מרים\זילברברג\finalProject\myTaskList\obj\Debug\net5.0\חדש.RazorTargetAssemblyInfo.cache
+Z:\B\קארפ מרים\זילברברג\finalProject\myTaskList\obj\Debug\net5.0\חדש.csproj.CopyComplete
+Z:\B\קארפ מרים\זילברברג\finalProject\myTaskList\obj\Debug\net5.0\חדש.dll
+Z:\B\קארפ מרים\זילברברג\finalProject\myTaskList\obj\Debug\net5.0\ref\חדש.dll
+Z:\B\קארפ מרים\זילברברג\finalProject\myTaskList\obj\Debug\net5.0\חדש.pdb
+Z:\B\קארפ מרים\זילברברג\finalProject\myTaskList\obj\Debug\net5.0\חדש.genruntimeconfig.cache

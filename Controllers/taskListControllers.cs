@@ -7,6 +7,7 @@ using Microsoft.Extensions.Logging;
 using mTask.interfaces;
 using mTask.models;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using System.Text.Json;
 
 namespace mTask.Controllers
@@ -16,23 +17,23 @@ namespace mTask.Controllers
     [Authorize(Policy = "taskUser")]
     public class taskListControllers : ControllerBase
     {
-        // private long userId;
+        private long userId;
         IListTaskService taskListServices;
 
-        public taskListControllers(IListTaskService taskListServices)
+        public taskListControllers(IListTaskService taskListServices, IHttpContextAccessor httpContextAccessor)
         {
             this.taskListServices = taskListServices;
-            // this.userId = long.Parse(User.FindFirst("UserId")?.Value ?? "");
+            this.userId = long.Parse(httpContextAccessor.HttpContext?.User?.FindFirst("Id")?.Value);
         }
 
         [HttpGet]
         public ActionResult<List<task>> GetAll() =>
-            taskListServices.GetAll();
+            taskListServices.GetAll(userId);
 
         [HttpGet("{id}")]
         public ActionResult<task> Get(int id)
         {
-            var task = taskListServices.Get(id);
+            var task = taskListServices.Get(userId,id);
 
             if (task == null)
                 return NotFound();
@@ -43,7 +44,7 @@ namespace mTask.Controllers
         [HttpPost]
         public ActionResult Create(task newTask)
         {
-            taskListServices.Add(newTask);
+            taskListServices.Add(userId,newTask);
             return CreatedAtAction(nameof(Create), new { id = newTask.id }, newTask);
         }
 
@@ -53,11 +54,11 @@ namespace mTask.Controllers
             if (id != task.id)
                 return BadRequest();
 
-            var existingTask = taskListServices.Get(id);
+            var existingTask = taskListServices.Get(userId,id);
             if (existingTask is null)
                 return NotFound();
 
-            taskListServices.Update(task);
+            taskListServices.Update(userId,task);
 
             return NoContent();
         }
@@ -65,14 +66,14 @@ namespace mTask.Controllers
         [HttpDelete("{id}")]
         public IActionResult Delete(int id)
         {
-            var task = taskListServices.Get(id);
+            var task = taskListServices.Get(userId,id);
             System.Console.WriteLine("task! ", task);
             if (task is null)
                 return NotFound();
 
-            taskListServices.Delete(id);
+            taskListServices.Delete(userId,id);
 
-            return Content(taskListServices.Count().ToString());
+            return Content(taskListServices.Count(userId).ToString());
         }
 
 

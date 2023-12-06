@@ -89,7 +89,7 @@ namespace חדש
 
             app.UseHttpsRedirection();
 
-            app.UseMyLogMiddleware();
+            app.UseMyLogMiddleware("log.txt");
 
             app.UseRouting();
 
