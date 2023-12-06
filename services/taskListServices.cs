@@ -13,12 +13,11 @@ using Microsoft.AspNetCore.Http;
 
 namespace mTask.services
 {
-
-
     public class taskListServices : IListTaskService
     {
 
         List<task> tasks { get; }
+
 
 
         private IWebHostEnvironment webHost;
@@ -45,47 +44,46 @@ namespace mTask.services
 
         public List<task> GetAll(long userId)
         {
-            Console.WriteLine(userId);
             return tasks.Where(p => p.taskUserId == userId).ToList();
-            
+
         }
 
-        public task Get(long userId,int id)
+        public task Get(long userId, int id)
         {
             return tasks.FirstOrDefault(t => t.taskUserId == userId && t.id == id);
         }
 
-        public void Add(long userId,task task)
+        public void Add(long userId, task task)
         {
             // task.id = tasks.Count() + 1;
-            task.id = tasks[tasks.Count()-1].id + 1;
+            task.id = tasks[tasks.Count() - 1].id + 1;
             task.taskUserId = userId;
             tasks.Add(task);
             saveToFile();
 
         }
-        public void Delete(long userId,int id)
+        public void Delete(long userId, int id)
         {
-            var task = Get( userId, id);
+            var task = Get(userId, id);
             if (task is null)
                 return;
             tasks.Remove(task);
             saveToFile();
 
         }
-        public void Update( long userId,task task)
+        public void Update(long userId, task task)
         {
             var index = tasks.FindIndex(t => t.taskUserId == userId && t.id == task.id);
             if (index == -1)
                 return;
-            task.taskUserId=userId;
+            task.taskUserId = userId;
             tasks[index] = task;
             saveToFile();
         }
 
         public int Count(long userId)
         {
-            return GetAll( userId).Count();
+            return GetAll(userId).Count();
         }
     }
 }

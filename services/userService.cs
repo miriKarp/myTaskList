@@ -10,6 +10,7 @@ using System.Text.Json;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 
+
 namespace mTask.services
 {
 
@@ -17,18 +18,14 @@ namespace mTask.services
     {
 
         List<User> users { get; }
-        // static int nextId=100;
-        // private readonly long userId;
+
         private IWebHostEnvironment webHost;
         private string filePath;
+        IListTaskService taskListServices;
 
-        public userService(IWebHostEnvironment webHost, IHttpContextAccessor httpContextAccessor)
+        public userService(IWebHostEnvironment webHost, IHttpContextAccessor httpContextAccessor, IListTaskService taskListServices)
         {
-            // System.Console.WriteLine("ggggggggggggggggggggg");
-            // var x=httpContextAccessor.HttpContext?.User?.FindFirst("Id")?.Value;
-            // System.Console.WriteLine(x);
-            // this.userId = long.Parse("222");
-            // System.Console.WriteLine("vhgh",this.userId);
+            this.taskListServices = taskListServices;
             this.webHost = webHost;
             this.filePath = Path.Combine(webHost.ContentRootPath, "data", "users.json");
             using (var jsonFile = File.OpenText(filePath))
@@ -48,7 +45,7 @@ namespace mTask.services
 
         public List<User> GetAll() => users;
 
-        public User Get(long userId)=>users?.FirstOrDefault(u=>u.Id==userId);
+        public User Get(long userId) => users?.FirstOrDefault(u => u.Id == userId);
 
         public void Post(User u)
         {
@@ -58,11 +55,17 @@ namespace mTask.services
             saveToFile();
         }
 
-        public void Delete(int id){
-            var user=Get(id);
-            if(user is null)
+        public void Delete(int id)
+        {
+            var user = Get(id);
+            if (user is null)
                 return;
             users.Remove(user);
+            List<task> tasks = taskListServices.GetAll(user.Id);
+            foreach (var t in tasks)
+            {
+                taskListServices.Delete(user.Id, t.id);
+            }
             saveToFile();
         }
     }

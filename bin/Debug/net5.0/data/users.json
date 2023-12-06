@@ -1,1 +1,32 @@
-[{"Id":1,"UserName":"a","Password":"a","TaskManager":true},{"Id":2,"UserName":"b","Password":"b","TaskManager":false},{"Id":3,"UserName":"c","Password":"c","TaskManager":false},{"Id":4,"UserName":"d","Password":"d","TaskManager":false},{"Id":5,"UserName":"e","Password":"e","TaskManager":false}]
+[
+    {
+        "Id": 1,
+        "UserName": "a",
+        "Password": "a",
+        "TaskManager": true
+    },
+    {
+        "Id": 2,
+        "UserName": "b",
+        "Password": "b",
+        "TaskManager": false
+    },
+    {
+        "Id": 3,
+        "UserName": "c",
+        "Password": "c",
+        "TaskManager": false
+    },
+    {
+        "Id": 4,
+        "UserName": "d",
+        "Password": "d",
+        "TaskManager": false
+    },
+    {
+        "Id": 5,
+        "UserName": "e",
+        "Password": "e",
+        "TaskManager": false
+    }
+]

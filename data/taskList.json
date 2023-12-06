@@ -36,18 +36,6 @@
         "taskUserId": 1
     },
     {
-        "id": 7,
-        "name": "call",
-        "status": true,
-        "taskUserId": 5
-    },
-    {
-        "id": 8,
-        "name": "tidy",
-        "status": false,
-        "taskUserId": 5
-    },
-    {
         "id": 9,
         "name": "clean",
         "status": false,
